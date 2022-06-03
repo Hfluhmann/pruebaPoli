@@ -64,7 +64,7 @@ bo {
   outline: none;
 }
 img {
-  max-width: 100%;
+  max-width: 40%;
   height: auto;
   vertical-align: bottom;
 }
@@ -89,7 +89,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #000;
   font-family: "Quicksand", Arial, sans-serif;
   font-weight: 400;
-  margin: 0 0 30px 0; }
+  margin: 30px 0 0 0; }
 
 
 i.material-icons {
@@ -261,6 +261,10 @@ Display Styles
 }
 .flex-2{
   flex: 2;
+}
+
+.img-style{
+  max-width: 10px;
 }
 
 
@@ -506,4 +510,12 @@ Page Styles
     color: #999999;
     font-weight: 500;
     letter-spacing: 5px;
+}
+
+.side-by-side {
+  width: 100%;
+
+}
+.side-by-side li {
+  display: inline;
 }
